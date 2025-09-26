@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
@@ -9,8 +10,54 @@
     <script src='main.js'></script>
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
 </head>
+
 <body>
-    
-     <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <!--Variants-->
+    <h1>Variants</h1>
+    <button type="button" class="btn btn-primary">Primary</button>
+    <button type="button" class="btn btn-secondary">secondary</button>
+    <button type="button" class="btn btn-success">success</button>
+    <button type="button" class="btn btn-danger">danger</button>
+    <button type="button" class="btn btn-warning">warning</button>
+    <button type="button" class="btn btn-info">info</button>
+    <button type="button" class="btn btn-light">light</button>
+    <button type="button" class="btn btn-dark">dark</button>
+    <button type="button" class="btn btn-link">Link</button>
+
+    <!--Button Tags-->
+    <h1>Button Tags</h1>
+    <a class="btn btn-primary" href="#" role="button">Link</a>
+    <button class="btn btn-primary" type="submit">Button</button>
+    <input class="btn btn-primary" type="button" value="Input">
+    <input class="btn btn-primary" type="submit" value="Submit">
+    <input class="btn btn-primary" type="reset" value="Reset">
+
+    <!--Outline Buttons-->
+    <h1>Outline Buttons</h1>
+    <button type="button" class="btn btn-outline-primary">Primary</button>
+    <button type="button" class="btn btn-outline-success">success</button>
+    <button type="button" class="btn btn-outline-danger">danger</button>
+
+    <!--Sizes-->
+    <h1>Sizes</h1>
+    <button type="button" class="btn btn-primary btn-lg">Button Large</button>
+    <button type="button" class="btn btn-success btn-sm">Button small</button>
+    <button type="button" class="btn btn-primary"
+        style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+  Custom button
+</button>
+
+<!--Disables State-->
+<h1>Disabled state</h1>
+<button type="button" class="btn btn-primary" disabled>Primary Button</button>
+<button type="button" class="btn btn-success" disabled>success button</button>
+
+<!--Toggle states-->
+<h1>Toggle states</h1>
+<button type="button" class="btn" data-bs-toggle="button">Toggle button</button>
+<button type="button" class="btn active" data-bs-toggle="button" aria-pressed="true">Active toggle button</button>
 </body>
+
 </html>
