@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image responsiveness</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+<body>
+     <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+     <!--Images are made responsive using image-fluid-->
+     <div class="container">
+        <div style="width: 40%; border: 5px red solid;">
+            <img src="https://picsum.photos/200/300" alt="" class="image-fluid">
+        </div>
+     </div>
+     <!--Image thumbnails-->
+      <div class="container">
+        <div>
+            <h1>Img-thumbnail use for bordered image</h1>
+            <img src="https://picsum.photos/200/300" alt="" class="img-thumbnail">
+        </div>
+     </div>
+     <!--Image Alignment-->
+     <div class="container">
+        <div>
+            <h1>Image alignment</h1>
+            <img src="https://picsum.photos/200/300" alt="" class="rounded float-start">
+            <img src="https://picsum.photos/200/300" alt="" class="rounded float-end">
+        </div>
+        <div>
+            <h1>Image center</h1>
+            <img src="https://picsum.photos/200/300" alt="" class="rounded mx-auto d-block">
+        </div>
+     </div>
+</body>
+</html>
